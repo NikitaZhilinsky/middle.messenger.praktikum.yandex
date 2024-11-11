@@ -1,13 +1,13 @@
 .input {
-    /* color: var(--placeholder-text-color); */
-    font-family: var(--font-family);
-    font-size: medium;
-    border-width: 0;
-    border-radius: 7px;
-    padding: 5px 10px;
-    margin: 0 9px 18px;
+  /* color: var(--placeholder-text-color); */
+  font-family: var(--font-family);
+  font-size: medium;
+  border-width: 0;
+  border-radius: 7px;
+  padding: 5px 10px;
+  margin: 0 9px 18px;
 }
 
 .input:focus {
-    outline: none;
+  outline: none;
 }

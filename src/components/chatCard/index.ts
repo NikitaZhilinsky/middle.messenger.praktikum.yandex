@@ -1,3 +1,3 @@
-import './chatCard.css'
+import "./chatCard.css";
 
-export { default as ChatCard } from './chatCard.hbs?raw';
+export { default as ChatCard } from "./chatCard.hbs?raw";

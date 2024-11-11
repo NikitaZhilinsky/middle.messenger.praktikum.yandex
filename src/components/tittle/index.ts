@@ -1,1 +1,1 @@
-export { default as Tittle } from './tittle.hbs?raw';
+export { default as Tittle } from "./tittle.hbs?raw";

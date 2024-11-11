@@ -1,1 +1,1 @@
-export { default as ErrorCode } from './errorCode.hbs?raw';
+export { default as ErrorCode } from "./errorCode.hbs?raw";

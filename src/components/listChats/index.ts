@@ -1,1 +1,1 @@
-export { default as ListChats } from './listChats.hbs?raw';
+export { default as ListChats } from "./listChats.hbs?raw";

@@ -1,1 +1,1 @@
-export { default as BackToChats } from './backToChats.hbs?raw';
+export { default as BackToChats } from "./backToChats.hbs?raw";
