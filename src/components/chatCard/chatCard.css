@@ -8,7 +8,7 @@
 .chatCard__avatar-container {
     width: 50px;
     height: 50px;
-    background-color: var(--main-background-color);
+    background-color: var(--main-color);
     border-radius: 50%;
     margin: 0 16px;
 }
