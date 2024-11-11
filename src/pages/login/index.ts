@@ -1,3 +1,3 @@
-import './login.css';
+import "./login.css";
 
-export { default as Login } from './login.hbs?raw';
+export { default as Login } from "./login.hbs?raw";

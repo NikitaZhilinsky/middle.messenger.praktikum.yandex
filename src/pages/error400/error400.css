@@ -1,17 +1,16 @@
 .error {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--main-text-color);
-    height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--main-text-color);
+  height: 100vh;
 }
 
 .error__code {
-    color: var(--main-color);
+  color: var(--main-color);
 }
 
 .error__back-to-chats {
-    color: var(--main-color);
-
+  color: var(--main-color);
 }

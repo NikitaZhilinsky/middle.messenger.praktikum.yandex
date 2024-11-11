@@ -1,3 +1,3 @@
-import '../error400/error400.css'
+import "../error400/error400.css";
 
-export { default as Error500 } from './error500.hbs?raw';
+export { default as Error500 } from "./error500.hbs?raw";
