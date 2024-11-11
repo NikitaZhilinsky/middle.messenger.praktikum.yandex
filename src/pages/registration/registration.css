@@ -1,0 +1,17 @@
+.registration,
+.registration__form,
+.registration__form-first-column, 
+.registration__form-second-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.registration,
+.registration__form
+  {
+    align-items: center;
+}
+
+.registration__form-columns {
+    display: flex;
+}

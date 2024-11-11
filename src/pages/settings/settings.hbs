@@ -1,0 +1,34 @@
+<main class="settings">
+    <div class="settings__avatar-container">
+        <img alt="Avatar" class="settings__avatar" src="/src/assets/1.jpg" />
+        {{> Button label="Change Avatar" }}
+    </div>
+    <form class="settings__form-wrapper">
+        <div class="settings__info-form">
+            <div class="settings__info-form__columns">
+                <div class="settings__info-form__first-column">
+                    {{> Input label="First Name" name="first_name" }}
+                    {{> Input label="Login" name="login" }}
+                    {{> Input label="Email" name="email" }}
+                </div>
+                <div class="settings__info-form__second-column">
+                    {{> Input label="Second Name" name="second_name" }}
+                    {{> Input label="Display Name" name="display_name" }}
+                    {{> Input label="Phone" name="phone" }}
+                </div>
+            </div>
+            <div class="button-info">
+                {{> Button label="Change Info" }}
+            </div>
+        </div>
+        <div class="settings__password-form">
+            <div class="settings__password-form_row">
+                {{> Input label="Old Password" name="oldPassword" }}
+                {{> Input label="New Password" name="newPassword" }}
+            </div>
+            <div class="button-password">
+                {{> Button label="Change Password" }}
+            </div>
+        </div>
+    </form>
+</main>

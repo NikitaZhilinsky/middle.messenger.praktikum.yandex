@@ -1,0 +1,21 @@
+<main class="registration">
+    <div class="registration__tittle-container">
+        {{> Tittle label="Messenger Praktikum"}}
+    </div>
+    <form class="registration__form">
+        <div class="registration__form-columns">
+            <div class="registration__form-first-column">
+                {{> Input label="First Name" name="first_name" }}
+                {{> Input label="Email" name="email" }}
+                {{> Input label="Login" name="login" }}
+            </div>
+            <div class="registration__form-second-column">
+                {{> Input label="Second Name" name="second_name" }}
+                {{> Input label="Phone" name="phone" }}
+                {{> Input label="Password" name="password" }}
+            </div>
+        </div>
+        {{> Button label="Sign up" }}
+        {{> EntranceType label="Already" type="Sign in" }}
+    </form>
+</main>
