@@ -22,3 +22,7 @@
 - `npm install` — установка стабильной версии,
 - `npm start` — запуск версии для разработчика,
 - `npm run build` — сборка стабильной версии.
+
+## Дополнительно
+
+Проект развернут на [Netify](https://glowing-rugelach-5b82e3.netlify.app/)
