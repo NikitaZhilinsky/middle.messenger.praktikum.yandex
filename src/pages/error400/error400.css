@@ -11,6 +11,10 @@
   color: var(--main-color);
 }
 
+.error__message {
+  color: var(--placeholder-text-color);
+}
+
 .error__back-to-chats {
   color: var(--main-color);
 }

@@ -1,11 +1,12 @@
 import Handlebars from "handlebars";
 import * as Components from "./components";
 import * as Pages from "./pages";
+import { chatMessages } from "./utils/constants";
 
 const pages = {
   login: [Pages.Login],
   registration: [Pages.Registration],
-  chats: [Pages.Chats, { chats: [{}, {}, {}, {}, {}, {}, {}] }],
+  chats: [Pages.Chats, { chats: chatMessages }],
   settings: [Pages.Settings],
   error400: [Pages.Error400],
   error500: [Pages.Error500],
