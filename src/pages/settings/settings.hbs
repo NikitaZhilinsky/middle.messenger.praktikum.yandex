@@ -1,20 +1,21 @@
 <main class="settings">
     <div class="settings__avatar-container">
         <img alt="Avatar" class="settings__avatar" src="/src/assets/1.jpg" />
-        {{> Button label="Change Avatar" }}
+        {{> Input label="Avatar" name="avatar" type="file" }}
+        {{!-- {{> Button label="Change Avatar" }} --}}
     </div>
     <form class="settings__form-wrapper">
         <div class="settings__info-form">
             <div class="settings__info-form__columns">
                 <div class="settings__info-form__first-column">
-                    {{> Input label="First Name" name="first_name" }}
-                    {{> Input label="Login" name="login" }}
-                    {{> Input label="Email" name="email" }}
+                    {{> Input label="First Name" name="first_name" type="text" }}
+                    {{> Input label="Login" name="login" type="text" }}
+                    {{> Input label="Email" name="email" type="email" }}
                 </div>
                 <div class="settings__info-form__second-column">
-                    {{> Input label="Second Name" name="second_name" }}
-                    {{> Input label="Display Name" name="display_name" }}
-                    {{> Input label="Phone" name="phone" }}
+                    {{> Input label="Second Name" name="second_name" type="text" }}
+                    {{> Input label="Display Name" name="display_name" type="text" }}
+                    {{> Input label="Phone" name="phone" type="number" }}
                 </div>
             </div>
             <div class="button-info">
@@ -23,8 +24,8 @@
         </div>
         <div class="settings__password-form">
             <div class="settings__password-form_row">
-                {{> Input label="Old Password" name="oldPassword" }}
-                {{> Input label="New Password" name="newPassword" }}
+                {{> Input label="Old Password" name="oldPassword" type="password" }}
+                {{> Input label="New Password" name="newPassword" type="password" }}
             </div>
             <div class="button-password">
                 {{> Button label="Change Password" }}

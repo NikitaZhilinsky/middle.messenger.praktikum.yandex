@@ -5,14 +5,14 @@
     <form class="registration__form">
         <div class="registration__form-columns">
             <div class="registration__form-first-column">
-                {{> Input label="First Name" name="first_name" }}
-                {{> Input label="Email" name="email" }}
-                {{> Input label="Login" name="login" }}
+                {{> Input label="First Name" name="first_name" type="text" }}
+                {{> Input label="Email" name="email" type="email" }}
+                {{> Input label="Login" name="login" type="text" }}
             </div>
             <div class="registration__form-second-column">
-                {{> Input label="Second Name" name="second_name" }}
-                {{> Input label="Phone" name="phone" }}
-                {{> Input label="Password" name="password" }}
+                {{> Input label="Second Name" name="second_name" type="text" }}
+                {{> Input label="Phone" name="phone" type="number" }}
+                {{> Input label="Password" name="password" type="password" }}
             </div>
         </div>
         {{> Button label="Sign up" }}

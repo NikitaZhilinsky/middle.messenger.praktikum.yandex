@@ -17,8 +17,7 @@ Object.entries(Components).forEach(([name, template]) => {
   Handlebars.registerPartial(name, template);
 });
 
-function navigate(page: string) {
-  //@ts-ignore
+function navigate(page: keyof typeof pages) {
   const [source, context] = pages[page];
   const container = document.getElementById("app")!;
 
@@ -30,10 +29,9 @@ function navigate(page: string) {
 document.addEventListener("DOMContentLoaded", () => navigate("navigate"));
 
 document.addEventListener("click", (e) => {
-  //   @ts-ignore
-  const page = e.target.getAttribute("page");
+  const page = (e.target as HTMLInputElement).getAttribute("page");
   if (page) {
-    navigate(page);
+    navigate(page  as keyof typeof pages);
 
     e.preventDefault();
     e.stopImmediatePropagation();

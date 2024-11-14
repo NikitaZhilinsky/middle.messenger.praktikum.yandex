@@ -7,6 +7,6 @@
   border-color: var(--second-color);
   border-width: 0;
   border-radius: 7px;
-  box-shadow: 0 2px black;
+  box-shadow: 0 2px var(--second-text-color);
   padding: 5px 10px;
 }
