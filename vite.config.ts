@@ -1,19 +1,17 @@
-import { defineConfig } from 'vite'
-import autoprefixer from 'autoprefixer'
+import { defineConfig } from "vite";
+import autoprefixer from "autoprefixer";
 
 export default defineConfig({
-  root: '.',
+  root: ".",
   build: {
-    outDir: 'dist'
+    outDir: "dist",
   },
   server: {
     port: 3000,
   },
   css: {
     postcss: {
-      plugins: [
-        autoprefixer({})
-      ],
-    }
-  }
-})
+      plugins: [autoprefixer({})],
+    },
+  },
+});
