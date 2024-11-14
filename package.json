@@ -1,0 +1,27 @@
+{
+  "name": "messenger",
+  "version": "1.0.0",
+  "type": "module",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.8.6",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10",
+    "vite-plugin-handlebars": "^2.0.0"
+  },
+  "dependencies": {
+    "handlebars": "^4.7.8"
+  },
+  "scripts": {
+    "dev": "vite",
+    "start": "npm run build && npm run dev",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "author": "",
+  "license": "ISC"
+}

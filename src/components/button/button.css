@@ -1,0 +1,12 @@
+.button {
+  background-color: var(--second-color);
+  font-family: var(--font-family);
+  font-size: medium;
+  color: var(--main-text-color);
+  cursor: pointer;
+  border-color: var(--second-color);
+  border-width: 0;
+  border-radius: 7px;
+  box-shadow: 0 2px var(--second-text-color);
+  padding: 5px 10px;
+}

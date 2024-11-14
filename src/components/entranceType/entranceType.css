@@ -1,0 +1,9 @@
+.entranceType {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.entranceType__second-part {
+  color: var(--main-text-color);
+}
